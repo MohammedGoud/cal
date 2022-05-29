@@ -1,0 +1,13 @@
+{
+    "name": "devdojo/calculator",
+    "autoload": {
+        "psr-4": {
+            "Devdojo\\Calculator\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Mohammed AboElgoud",
+        "email": "mohammed.aboelgoud@westore.ai"
+    }],
+    "require": {}
+}
