@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Gouda\Calculator;
 
 use App\Http\Controllers\Controller;
 

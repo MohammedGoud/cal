@@ -1,6 +1,5 @@
 <?php
 
-use Devdojo\Calculator\CalculatorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('add/{a}/{b}', [CalculatorController::class,'add']);
-//Route::get('add/{a}/{b}', [UserController::class, 'index']);
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/', function () {
+    return view('welcome');
+});
 

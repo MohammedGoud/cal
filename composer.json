@@ -1,8 +1,8 @@
 {
-    "name": "gouda/inspire",
+    "name": "gouda/calculator",
     "autoload": {
         "psr-4": {
-            "Devdojo\\Calculator\\": "src/"
+            "Gouda\\Calculator\\": "src/"
 
         }
     },
