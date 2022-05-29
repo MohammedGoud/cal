@@ -13,18 +13,11 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // register our controller
-        //$this->app->make('Devdojo\Calculator\CalculatorController');
 
     }
 
-    /**
-     * Bootstrap services.
-     *
-     * @return void
-     */
     public function boot()
     {
-        //
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }

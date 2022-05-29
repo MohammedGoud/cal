@@ -1,13 +1,17 @@
 {
-    "name": "devdojo/calculator",
+    "name": "gouda/inspire",
     "autoload": {
         "psr-4": {
             "Devdojo\\Calculator\\": "src/"
+
         }
     },
     "authors": [{
-        "name": "Mohammed AboElgoud",
-        "email": "mohammed.aboelgoud@westore.ai"
+        "name": "Farhan Hasin Chowdhury",
+        "email": "shovik.is.here@gmail.com"
     }],
-    "require": {}
+
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
 }
